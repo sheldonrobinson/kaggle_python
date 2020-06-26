@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Learn more: https://github.com/kennethreitz/setup.py
+# Learn more: https://github.com/sheldonrobinson/kaggle_python/setup.py
 
 from setuptools import setup, find_packages
 
@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='kaggle_python',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Package of utility scripts extracted from Kaggle/docker-python',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Sheldon Robinson',
+    author_email='sheldon_robinson@yahoo.co.uk',
+    url='https://github.com/sheldonrobinson/kaggle_python',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
